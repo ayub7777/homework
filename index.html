@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        body{
+            background: black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+        }
+        .container{
+            max-width:1140px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .header__h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }
+        .header__list{
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 70px;
+            line-height: 50px;
+            color: white;
+            transition: color 0.3s;
+        }
+        h2:hover{
+            color: red;
+        }
+        .header__link{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            line-height: 35px;
+            color: white;
+            transition: color 0.3s;
+        }
+        .header__link:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header__h1">
+            <h2>welcome</h2>
+        </div>
+        <ul class="header__list">
+            <li><a href="1main.html" class="header__link">EXERCISES</a></li>
+            <li><a href="2main.html" class="header__link">ABOUT YOU</a></li>
+            <li><a href="3main.html" class="header__link">ABOUT TIME</a></li>
+        </ul>
+    </div>
+</body>
+</html>
